@@ -1,12 +1,18 @@
 
 
 body {
+    color: white;
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    font-family: 'Times New Roman';
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: rgb(0, 36, 92)
+    
 
+
+}
+a {
+    color: white;
 }
 #full-header {
     width: 1000px;
@@ -58,7 +64,7 @@ body {
 #recent-news > header {
     margin-left: 5px;
     color: white;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
     margin-bottom: 5px;
 }
@@ -70,11 +76,8 @@ footer {
     border-radius: 5px;
     color: white;
 }
-#recent-news > ul {
-    list-style: none;
-}
 #recent-news > ul > li {
-    margin-bottom: 3px;
+    margin-bottom: 6px;
 
 }
 #main{
@@ -84,9 +87,12 @@ footer {
     margin-bottom: 3px;
 
 }
+#header-title{
+    margin-bottom: 5px;
+}
 #shirt-header{
     color: white;
-    font-size: 15px;
+    font-size: 20px;
     margin-bottom: 3px;
     height: 25px;
 }
@@ -95,17 +101,24 @@ footer {
     float: left;
     margin-bottom: 20px;
 }
-.product-article{
-    height: 150px;
+/*.product-article{
+    height: 200px;
     width: 200px;
     border-width: 2px;
     border-style: solid;
     border-color: black;
     margin: 3px 3px 3px 3px;
-    border-radius: 5px;
+    border-radius: 0px;
 
+}*/
+.product-article > p{
+    color: white;
 }
 .product-thumbnail{
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
+
+}
+#header-title{
+    color: white;
 }
