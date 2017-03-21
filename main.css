@@ -70,3 +70,42 @@ footer {
     border-radius: 5px;
     color: white;
 }
+#recent-news > ul {
+    list-style: none;
+}
+#recent-news > ul > li {
+    margin-bottom: 3px;
+
+}
+#main{
+    height: 100%;
+    width: 700px;
+    float: left;
+    margin-bottom: 3px;
+
+}
+#shirt-header{
+    color: white;
+    font-size: 15px;
+    margin-bottom: 3px;
+    height: 25px;
+}
+.products{
+    width: 25%;
+    float: left;
+    margin-bottom: 20px;
+}
+.product-article{
+    height: 150px;
+    width: 200px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    margin: 3px 3px 3px 3px;
+    border-radius: 5px;
+
+}
+.product-thumbnail{
+    height: 100px;
+    width: 100px;
+}
